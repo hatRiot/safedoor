@@ -1,7 +1,7 @@
 safedoor
 ========
 
-Safedoor is a small Python application for sniffing out invalid/bogus SSL certificates.  A more elaborate discussion of this application and design can be found on my blog, here: forelsec.blogspot.com
+Safedoor is a small Python application for sniffing out invalid/bogus SSL certificates.  A more elaborate discussion of this application and design can be found on my blog, here: http://forelsec.blogspot.com/2012/07/infinite-complexity-and-ssl.html
 
 Dependencies:
 	Python 2.6
