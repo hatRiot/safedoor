@@ -9,6 +9,7 @@ Dependencies:
 	PyOpenSSL .13
 	Scapy 2.1.0
 
+<pre>
 drone@devbox:~/safedoor$ sudo python safedoor.py -h
 Usage: safedoor.py [options]
 
@@ -19,6 +20,7 @@ Options:
   -s CERTFILE    Specify a different SSL cert location
   -p PORT        Specify a port (default: 443)
   -r REVOCATION  Specify a CRL file for lookup; give full path
+</pre>
 
 As of initial commit, Safedoor has no logging mechanisms, but those are currently TODO.  The bulk of this code
 was to coincide with the blog post and inquery into SSL verification.  This works very well for discovering 
